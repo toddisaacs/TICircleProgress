@@ -158,6 +158,7 @@
 					32FE67501DE1F8E7005E0926 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9C759Q4CFH;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -410,6 +411,7 @@
 				32FE675E1DE1F8E7005E0926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FE675F1DE1F8E7005E0926 /* Build configuration list for PBXNativeTarget "TICircleProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +420,7 @@
 				32FE67611DE1F8E7005E0926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
