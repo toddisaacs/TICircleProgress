@@ -10,6 +10,7 @@
 		32FE67521DE1F8E7005E0926 /* TICircleProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE67481DE1F8E7005E0926 /* TICircleProgress.framework */; };
 		32FE67571DE1F8E7005E0926 /* TICircleProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FE67561DE1F8E7005E0926 /* TICircleProgressTests.swift */; };
 		32FE67591DE1F8E7005E0926 /* TICircleProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE674B1DE1F8E7005E0926 /* TICircleProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FE67631DE1F90C005E0926 /* TICircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FE67621DE1F90C005E0926 /* TICircleProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		32FE67511DE1F8E7005E0926 /* TICircleProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TICircleProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE67561DE1F8E7005E0926 /* TICircleProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TICircleProgressTests.swift; sourceTree = "<group>"; };
 		32FE67581DE1F8E7005E0926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FE67621DE1F90C005E0926 /* TICircleProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TICircleProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		32FE674A1DE1F8E7005E0926 /* TICircleProgress */ = {
 			isa = PBXGroup;
 			children = (
+				32FE67621DE1F90C005E0926 /* TICircleProgress.swift */,
 				32FE674B1DE1F8E7005E0926 /* TICircleProgress.h */,
 				32FE674C1DE1F8E7005E0926 /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 					32FE67471DE1F8E7005E0926 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9C759Q4CFH;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					32FE67501DE1F8E7005E0926 = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FE67631DE1F90C005E0926 /* TICircleProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		32FE675D1DE1F8E7005E0926 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.teisaacs.TICircleProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		32FE675E1DE1F8E7005E0926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
@@ -360,6 +368,7 @@
 		32FE67601DE1F8E7005E0926 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
 				INFOPLIST_FILE = TICircleProgressTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +381,7 @@
 		32FE67611DE1F8E7005E0926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9C759Q4CFH;
 				INFOPLIST_FILE = TICircleProgressTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
