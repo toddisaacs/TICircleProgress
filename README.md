@@ -10,7 +10,7 @@ swift 3
 
 Usage
 ----
-Copy TICircleProgress.swift into your project. Can be used with InterfaceBuilder or instantiated in code.
+Copy TICircleProgress.swift into your project. 
 
 or 
 
@@ -38,8 +38,12 @@ target 'TICircleProgressView' do
   end
 
 end
-
 ```
+
+Can be used with InterfaceBuilder or instantiated in code.
+
+In interface builder create add a UIView and associate to custom class 'TICircleProgress'
+
 Interface Builder
 ![Preview Simulator](InterfaceBuilder.png)
 
