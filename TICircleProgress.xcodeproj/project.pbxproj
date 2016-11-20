@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326F8C7A1DE2236400C42468 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 326F8C781DE2236400C42468 /* README.md */; };
+		326F8C7B1DE2236400C42468 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 326F8C791DE2236400C42468 /* LICENSE.txt */; };
 		32FE67521DE1F8E7005E0926 /* TICircleProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE67481DE1F8E7005E0926 /* TICircleProgress.framework */; };
 		32FE67571DE1F8E7005E0926 /* TICircleProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FE67561DE1F8E7005E0926 /* TICircleProgressTests.swift */; };
 		32FE67591DE1F8E7005E0926 /* TICircleProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE674B1DE1F8E7005E0926 /* TICircleProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		326F8C781DE2236400C42468 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		326F8C791DE2236400C42468 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		32FE67481DE1F8E7005E0926 /* TICircleProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TICircleProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE674B1DE1F8E7005E0926 /* TICircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TICircleProgress.h; sourceTree = "<group>"; };
 		32FE674C1DE1F8E7005E0926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		32FE673E1DE1F8E7005E0926 = {
 			isa = PBXGroup;
 			children = (
+				326F8C781DE2236400C42468 /* README.md */,
+				326F8C791DE2236400C42468 /* LICENSE.txt */,
 				32FE674A1DE1F8E7005E0926 /* TICircleProgress */,
 				32FE67551DE1F8E7005E0926 /* TICircleProgressTests */,
 				32FE67491DE1F8E7005E0926 /* Products */,
@@ -186,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326F8C7B1DE2236400C42468 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326F8C7A1DE2236400C42468 /* README.md in Sources */,
 				32FE67631DE1F90C005E0926 /* TICircleProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
