@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TICircleProgress"
-  s.version      = "1.0.0"
+  s.version      = "1.1.2"
   s.summary      = "Circular progress indicator"
   s.description  = "Circular progress indicator draws progress in a circular ring from 0 - 100% and includes test display in the center"
   s.homepage     = "https://github.com/toddisaacs/TICircleProgressView"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author       = "Todd Isaacs"
   s.social_media_url   = "http://twitter.com/toddisaacs"
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/toddisaacs/TICircleProgress.git", :tag => "1.0.0"}
+  s.source       = { :git => "https://github.com/toddisaacs/TICircleProgress.git", :tag => "v1.1.2"}
   s.source_files  = "TICircleProgress", "TICircleProgress/**/*.{h,m,swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 end

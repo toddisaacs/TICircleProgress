@@ -262,7 +262,7 @@ public class TICircleProgress: UIView {
     
     let labelFont = UIFont(name: font!.fontName, size: labelSize)!
     
-    let labelTextFontAttributes: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: labelFont, NSAttributedStringKey.foregroundColor: trackColor, NSAttributedStringKey.paragraphStyle: textStyle] as! [NSAttributedStringKey : Any]
+    let labelTextFontAttributes: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: labelFont, NSAttributedStringKey.foregroundColor: trackColor, NSAttributedStringKey.paragraphStyle: textStyle]
     
     let LABEL_TEXT_HEIGHT:CGFloat = labelSize + 3
     let PROGRESS_TEXT_HEIGHT:CGFloat = displaySize + 3

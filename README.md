@@ -18,11 +18,13 @@ pod init
 
 ```.podspec
 target 'TICircleProgressView' do
+  platform :ios, '10.2'
+
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for TICircleProgressView
-  pod 'TICircleProgress', :git => 'https://github.com/toddisaacs/TICircleProgress.git', :tag => '1.0.0'
+  pod 'TICircleProgress', :git => 'https://github.com/toddisaacs/TICircleProgress.git', :tag => '1.1.1'
   target 'TICircleProgressViewTests' do
   inherit! :search_paths
     # Pods for testing
@@ -32,7 +34,7 @@ target 'TICircleProgressView' do
   post_install do |installer|
     installer.pods_project.targets.each do |target|
       target.build_configurations.each do |config|
-        config.build_settings['SWIFT_VERSION'] = '3.0'
+        config.build_settings['SWIFT_VERSION'] = '4.0'
       end
     end
   end
