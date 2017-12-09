@@ -48,7 +48,7 @@ public class TICircleProgress: UIView {
   fileprivate var font: UIFont!
   fileprivate var fontValidated = false
   
-  fileprivate let π:CGFloat = CGFloat(M_PI)
+  fileprivate let π:CGFloat = CGFloat(Double.pi)
   
   
   
@@ -143,11 +143,11 @@ public class TICircleProgress: UIView {
   fileprivate func percentToRadian(_ percent:Float) -> CGFloat {
     var endAngleRadians: CGFloat
     if progress >= 100 {
-      endAngleRadians  = CGFloat((Double(99.99/100 * 360) - Double(90)) * M_PI / 180)
+      endAngleRadians  = CGFloat((Double(99.99/100 * 360) - Double(90)) * Double.pi / 180)
     } else if progress <= 0 {
-      endAngleRadians  = CGFloat((Double(0.3/100 * 360) - Double(90)) * M_PI / 180)
+      endAngleRadians  = CGFloat((Double(0.3/100 * 360) - Double(90)) * Double.pi / 180)
     } else {
-      endAngleRadians  = CGFloat((Double(progress/100 * 360) - Double(90)) * M_PI / 180)
+      endAngleRadians  = CGFloat((Double(progress/100 * 360) - Double(90)) * Double.pi / 180)
     }
     
     return endAngleRadians
